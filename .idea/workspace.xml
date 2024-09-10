@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="760e9760-568e-496c-bc37-51ebc7eeb3f3" name="Changes" comment="Commit directories 10, 11, 12" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2kbS0PACkW1dPM7WXgA51OtHIwg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AggregationExample.executor": "Run",
+    "Application.AssociationExample.executor": "Run",
+    "Application.BankEmployee.executor": "Run",
+    "Application.BuildingRoom.executor": "Run",
+    "Application.CarWheel.executor": "Run",
+    "Application.CompositionExample.executor": "Run",
+    "Application.DynamicType.executor": "Run",
+    "Application.InstituteCCStudent.executor": "Run",
+    "Application.StudentModule.executor": "Run",
+    "Application.TestShape.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/raine/IdeaProjects/Programming1_AS2024",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "build.tools",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\raine\IdeaProjects\Programming1_AS2024\src\lecture10\exercises" />
+      <recent name="C:\Users\rainer.telesko\IdeaProjects\Programming1_AS2024\src\lecture10\exercises" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="760e9760-568e-496c-bc37-51ebc7eeb3f3" name="Changes" comment="" />
+      <created>1723550562326</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723550562326</updated>
+      <workItem from="1723550563285" duration="16255000" />
+      <workItem from="1723614050001" duration="530000" />
+      <workItem from="1723811089292" duration="403000" />
+      <workItem from="1723811499365" duration="5000" />
+      <workItem from="1724056123346" duration="3551000" />
+      <workItem from="1724059709023" duration="1142000" />
+      <workItem from="1725267740351" duration="10860000" />
+      <workItem from="1725374007479" duration="2955000" />
+      <workItem from="1725460892364" duration="355000" />
+      <workItem from="1725545562655" duration="907000" />
+      <workItem from="1725550808499" duration="421000" />
+      <workItem from="1725551240872" duration="464000" />
+      <workItem from="1725632457266" duration="665000" />
+      <workItem from="1725811463880" duration="260000" />
+      <workItem from="1725811943685" duration="470000" />
+      <workItem from="1725869152354" duration="290000" />
+      <workItem from="1725869448154" duration="884000" />
+      <workItem from="1725973745482" duration="331000" />
+    </task>
+    <task id="LOCAL-00001" summary="Commit directories 10, 11, 12">
+      <option name="closed" value="true" />
+      <created>1725974074273</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725974074273</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit directories 10, 11, 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit directories 10, 11, 12" />
+  </component>
+</project>
