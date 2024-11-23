@@ -1,4 +1,4 @@
-package assignment02;
+package assignment03;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -9,7 +9,7 @@ public class MiniGame {
 
     // Game 1: Guessing Number Game
     public int playNumberGuessingGame() {
-
+        Random random = new Random();
         Scanner scanner = new Scanner(System.in);
         int target = random.nextInt(100) + 1;
         int attempts = 7;
@@ -63,6 +63,56 @@ public class MiniGame {
         return 0; // No reward
     }
 
+    // Game 3: Guessing multiplication of numbers
+    public int playMultiplicationGuessGame() {
+        // Generate two random integers between 1 and 100
+        int num1 = random.nextInt(1, 101);
+        int num2 = random.nextInt(1, 101);
+        int correctAnswer = num1 * num2;
+
+        // Display the problem to the user
+        System.out.println("Two numbers have been chosen between 1 and 100.");
+        System.out.println("What is the product of " + num1 + " and " + num2 + "?");
+        System.out.println("You have 15 seconds to guess!");
+
+        // Record the start time
+        long startTime = System.currentTimeMillis();
+
+        // Scanner for user input
+        Scanner scanner = new Scanner(System.in);
+
+        // Prompt user for input
+        System.out.print("Enter your guess: ");
+        if (scanner.hasNextInt()) {
+            int userGuess = scanner.nextInt();
+
+            // Record the end time
+            long endTime = System.currentTimeMillis();
+
+            // Calculate elapsed time in seconds
+            double elapsedTime = (double) (endTime - startTime) / 1000;
+
+            // Statistics
+            System.out.println("Time used in sec: " + String.format("%.2f", elapsedTime));
+
+            // Check if time limit exceeded
+            if (elapsedTime > 15) {
+                System.out.println("Result: Time's up! You took too long.");
+                return 0;   // No reward
+            }
+
+            // Check if the guess is correct
+            if (userGuess == correctAnswer) {
+                System.out.println("Result: Congratulations! You guessed correctly.");
+                return 5;   // Reward
+            } else {
+                System.out.println("Result: Sorry, that's incorrect. The correct answer was " + correctAnswer + ".");
+                return 0;   // No reward
+            }
+        } else {
+            System.out.println("Result: Invalid input! The correct answer was " + correctAnswer + ".");
+            return 0;
+        }
+    }
 
 }
-
