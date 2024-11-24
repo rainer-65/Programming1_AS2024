@@ -1,5 +1,6 @@
 package assignment03;
 
+import java.util.Collections;
 import java.util.Scanner;
 
 public class GameManager {
@@ -24,7 +25,9 @@ public class GameManager {
             System.out.println("4. Let a pet rest");
             System.out.println("5. Play a mini-game");
             System.out.println("6. Display status");
-            System.out.println("7. Exit game");
+            System.out.println("7. Search pet");
+            System.out.println("8. Sort pets");
+            System.out.println("9. Exit game");
             System.out.print("Choose an option: ");
 
             int choice = scanner.nextInt();
@@ -49,6 +52,12 @@ public class GameManager {
                     player.displayStatus();
                     break;
                 case 7:
+                    searchForPet();
+                    break;
+                case 8:
+                    sortPets();
+                    break;
+                case 9:
                     System.out.println("Game Over! Total turns survived: " + turn);
                     return;
                 default:
@@ -183,6 +192,46 @@ public class GameManager {
             player.earnFood(reward);
             System.out.println("You earned " + reward + " food!");
         }
+    }
+
+
+    private void searchForPet() {
+        boolean found = false;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter pet name (case sensitivity ignored): ");
+        String searchedPetName = scanner.nextLine();
+        // ArrayList of Pets empty
+        if (player.getPets().isEmpty()) {
+            System.out.println("No pets in list available");
+        }
+        // searched pet name is empty
+        else if (searchedPetName.isEmpty()) {
+            System.out.println("Search term was empty");
+        } else
+            // hits
+            for (int i = 0; i < player.getPets().size(); i++) {
+                if (searchedPetName.equalsIgnoreCase(player.getPets().get(i).getName())) {
+                    System.out.println("Pet found with ID: " + player.getPets().get(i).getId());
+                    System.out.println("Attributes: " + player.getPets().get(i).getStatus());
+                    found = true;
+                }
+            }
+        if (!found) {
+            System.out.println("No pet named " + searchedPetName + " found!");
+        }
+
+    }
+
+    private void sortPets() {
+        if (player.getPets().isEmpty()) {
+            System.out.println("No pets in list available");
+        } else {
+            Collections.sort(player.getPets());
+            for (Pet pet : player.getPets()) {
+                System.out.print("Pet ID: " + pet.getId() + " " + pet.getStatus());
+            }
+        }
+
     }
 
     private void updatePetsStatus() {
