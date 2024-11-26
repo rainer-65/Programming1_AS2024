@@ -35,12 +35,15 @@ public class GameManager {
                     break;
                 case 2:
                     feedPet();
+                    turn++;     // Increasing turn
                     break;
                 case 3:
                     playWithPet();
+                    turn++;     // Increasing turn
                     break;
                 case 4:
                     restPet();
+                    turn++;     // Increasing turn
                     break;
                 case 5:
                     playMiniGame();
@@ -55,13 +58,13 @@ public class GameManager {
                     System.out.println("Invalid choice.");
             }
 
-            updatePetsStatus();
+            updatePetsStatus();     // Done after each turn
+
             if (checkGameOver()) {
                 System.out.println("Game Over! All pets are starving, and you're out of food.");
                 break;
             }
 
-            turn++;
         }
     }
 

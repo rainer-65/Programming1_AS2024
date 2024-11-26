@@ -2,6 +2,7 @@ package assignment03;
 
 import java.util.Random;
 import java.util.Scanner;
+import java.util.stream.IntStream;
 
 public class MiniGame {
     private static final String[] WORDS = {"dog", "cat", "rabbit", "hamster", "parrot", "turtle", "goldfish", "meow", "fetch", "treats", "bark", "leash"};
@@ -114,5 +115,24 @@ public class MiniGame {
             return 0;
         }
     }
+
+    // Game 4: Modified version of the fortune wheel
+    public int fortuneWheel() {
+        int number = random.nextInt(1, 101);
+        if (isPrime(number)) {
+            return 10;
+        } else if (number % 3 == 0 && number % 5 == 0) {
+            return 3;
+        } else if (number % 4 == 0) {
+            return 2;
+        } else return 0;
+    }
+
+    public static boolean isPrime(int number) {
+        return number > 1
+                && IntStream.rangeClosed(2, (int) Math.sqrt(number))
+                .noneMatch(n -> (number % n == 0));
+    }
+
 
 }

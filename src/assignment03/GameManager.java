@@ -38,12 +38,15 @@ public class GameManager {
                     break;
                 case 2:
                     feedPet();
+                    turn++; // Increasing turn
                     break;
                 case 3:
                     playWithPet();
+                    turn++; // Increasing turn
                     break;
                 case 4:
                     restPet();
+                    turn++; // Increasing turn
                     break;
                 case 5:
                     playMiniGame();
@@ -64,13 +67,13 @@ public class GameManager {
                     System.out.println("Invalid choice.");
             }
 
-            updatePetsStatus();
+            updatePetsStatus();     // Done after each turn
+
             if (checkGameOver()) {
                 System.out.println("Game Over! All pets are starving, and you're out of food.");
                 break;
             }
 
-            turn++;
         }
     }
 
@@ -170,6 +173,7 @@ public class GameManager {
         System.out.println("1. Number Guessing Game");
         System.out.println("2. Word Scramble Game");
         System.out.println("3. Guessing multiplication of numbers");
+        System.out.println("4. Fortune wheel");
         System.out.print("Choose a mini-game: ");
         int choice = scanner.nextInt();
 
@@ -183,6 +187,9 @@ public class GameManager {
                 break;
             case 3:
                 reward = miniGame.playMultiplicationGuessGame();
+                break;
+            case 4:
+                reward = miniGame.fortuneWheel();
                 break;
             default:
                 System.out.println("Invalid choice.");
