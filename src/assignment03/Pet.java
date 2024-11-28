@@ -1,6 +1,6 @@
-package assignment02;
+package assignment03;
 
-public class Pet {
+public class Pet implements Comparable<Pet> {
     private static int nextId = 0;
     private final int id;
     private String name;
@@ -42,7 +42,7 @@ public class Pet {
     }
 
     public void setName(String name) {
-        if ( !name.isEmpty() ){
+        if (!name.isEmpty()) {
             this.name = name;
         }
     }
@@ -69,7 +69,7 @@ public class Pet {
     }
 
     public void changeHappiness(int change) {
-        this.happiness = Math.max(min_happiness, Math.min(happiness+change, max_happiness));
+        this.happiness = Math.max(min_happiness, Math.min(happiness + change, max_happiness));
     }
 
     public int getHunger() {
@@ -78,7 +78,7 @@ public class Pet {
 
     public void setHunger(int hunger) {
         this.hunger = Math.max(min_hunger, Math.min(hunger, max_hunger));
-        if (this.hunger == 100){
+        if (this.hunger == 100) {
             System.out.println(this.name + " is starving.");
         } else if (this.hunger > 75) {
             System.out.println(this.name + " is very hungry.");
@@ -95,7 +95,7 @@ public class Pet {
 
     public void changeHunger(int change) {
 
-        this.hunger = Math.max(min_hunger, Math.min(hunger+change, max_hunger));
+        this.hunger = Math.max(min_hunger, Math.min(hunger + change, max_hunger));
     }
 
     public int getEnergy() {
@@ -104,7 +104,7 @@ public class Pet {
 
     public void setEnergy(int energy) {
         this.energy = Math.max(min_energy, Math.min(energy, max_energy));
-        if (this.energy == 100){
+        if (this.energy == 100) {
             System.out.println(this.name + " is full of energy.");
         } else if (this.energy > 75) {
             System.out.println(this.name + " is energized.");
@@ -120,7 +120,7 @@ public class Pet {
     }
 
     public void changeEnergy(int change) {
-        this.energy = Math.max(min_energy, Math.min(energy+change, max_energy));
+        this.energy = Math.max(min_energy, Math.min(energy + change, max_energy));
     }
 
     public void updateStatus() {
@@ -129,23 +129,37 @@ public class Pet {
         changeEnergy(-2);
     }
 
-    public void feed(){
+    public void feed() {
         changeHappiness(+10);
         changeHunger(-20);
     }
 
-    public void play(){
+    public void play() {
         changeHappiness(+15);
         changeHunger(+10);
         changeEnergy(-15);
     }
 
-    public void rest(){
+    public void rest() {
         changeHunger(+5);
         changeEnergy(+20);
     }
 
-    public String getStatus(){
+    public String getStatus() {
         return name + " - Happiness: " + happiness + " | Hunger: " + hunger + " | Energy: " + energy;
+    }
+
+    // Comparison: Criterion 1: Name (ascending), Criterion 2: Happiness (descending)
+    @Override
+    public int compareTo(Pet other) {
+        // Compare by pet name in ascending order
+        int nameComparison = this.name.compareTo(other.name);
+        if (nameComparison != 0) {
+            return nameComparison;
+        }
+
+        // Compare by happiness in descending(!) order
+        return Integer.compare(other.happiness, this.happiness);
+
     }
 }

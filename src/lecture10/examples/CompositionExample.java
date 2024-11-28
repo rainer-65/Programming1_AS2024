@@ -20,7 +20,7 @@ class Company {
     }
 
     // Department is tightly connected to Company (Composition)
-    static class Department {
+    class Department {
         private String id;
         private String name;
 
@@ -56,10 +56,10 @@ class CompanyDepartment {
         Company heroCorp = new Company("Programming Hero Corp");
 
         // Adding Departments to the Company
-        heroCorp.addDepartment(new Company.Department("A123", "Software Engineering"));
-        heroCorp.addDepartment(new Company.Department("A135", "Human Resources"));
-        heroCorp.addDepartment(new Company.Department("A187", "Research and Development"));
-        heroCorp.addDepartment(new Company.Department("A546", "Marketing and Sales"));
+        heroCorp.addDepartment(heroCorp.new Department("A123", "Software Engineering"));
+        heroCorp.addDepartment(heroCorp.new Department("A135", "Human Resources"));
+        heroCorp.addDepartment(heroCorp.new Department("A187", "Research and Development"));
+        heroCorp.addDepartment(heroCorp.new Department("A546", "Marketing and Sales"));
 
         // Printing department details
         System.out.println("Department details of Hero Corp. ");

@@ -5,11 +5,13 @@ import java.util.Scanner;
 
 public class MiniGame {
     private static final String[] WORDS = {"dog", "cat", "rabbit", "hamster", "parrot", "turtle", "goldfish", "meow", "fetch", "treats", "bark", "leash"};
+    private static Random random = new Random();
 
+    // Game 1: Guessing Number Game
     public int playNumberGuessingGame() {
-        Random rand = new Random();
+
         Scanner scanner = new Scanner(System.in);
-        int target = rand.nextInt(100) + 1;
+        int target = random.nextInt(100) + 1;
         int attempts = 7;
 
         System.out.println("Guess the number between 1 and 100!");
@@ -31,15 +33,15 @@ public class MiniGame {
         return 0; // No reward
     }
 
+    // Game 2: Word Scramble Game
     public int playWordScrambleGame() {
-        Random rand = new Random();
         Scanner scanner = new Scanner(System.in);
-        String word = WORDS[rand.nextInt(WORDS.length)];
+        String word = WORDS[random.nextInt(WORDS.length)];
         char[] scrambled = word.toCharArray();
 
         // Scramble the word
         for (int i = 0; i < scrambled.length; i++) {
-            int j = rand.nextInt(scrambled.length);
+            int j = random.nextInt(scrambled.length);
             char temp = scrambled[i];
             scrambled[i] = scrambled[j];
             scrambled[j] = temp;
@@ -60,5 +62,7 @@ public class MiniGame {
         System.out.println("Out of attempts! The word was: " + word);
         return 0; // No reward
     }
+
+
 }
 

@@ -24,7 +24,7 @@ class Building {
     }
 
     // Room is tightly connected to Building (Composition)
-    static class Room {
+    class Room {
         private String roomId;
         private float size;
 
@@ -60,9 +60,9 @@ class BuildingRoom {
         Building ovr = new Building("FHNW OVR", "Von Roll-Strasse 10", "Olten", "Solothurn", "4600");
 
         // Adding Rooms to the Building
-        ovr.addRoom(new Building.Room("B151", 20f));
-        ovr.addRoom(new Building.Room("A131", 100f));
-        ovr.addRoom(new Building.Room("B223", 18f));
+        ovr.addRoom(ovr.new Room("B151", 20f));
+        ovr.addRoom(ovr.new Room("A131", 100f));
+        ovr.addRoom(ovr.new Room("B223", 18f));
 
         // Printing Room details
         System.out.println("Room details of OVR Building: ");
