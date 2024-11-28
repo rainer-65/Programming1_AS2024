@@ -5,47 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="760e9760-568e-496c-bc37-51ebc7eeb3f3" name="Changes" comment="Commit directories 10, 11, 12">
-      <change afterPath="$PROJECT_DIR$/src/assignment01/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment01/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment02/GameManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment02/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment02/MiniGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment02/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment02/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture01/exercises/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture01/exercises/Interest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture01/exercises/StoppingDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture03/exercises/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture03/exercises/CarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture05/examples/ArrayDeclaration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture05/examples/ComparingArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture05/examples/NullCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture05/exercises/AverageCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture05/exercises/CollatzConjecture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture05/exercises/FactorialCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture05/exercises/MultiplicationTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture05/exercises/SquareCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture05/exercises/StringManipulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture05/exercises/SumCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture06/examples/ArrayList_Loops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture06/examples/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture06/examples/StringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture06/exercises/EvenNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture06/exercises/FavoriteColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture06/exercises/FavoriteFruits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture06/exercises/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture06/exercises/MultiplicationTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture06/exercises/MysteryCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture06/exercises/PositiveNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture08/examples/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture08/examples/BookMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture08/examples/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture08/examples/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture08/examples/StudentMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture08/exercises/ComparePrimitiveTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture08/exercises/CompareStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture08/exercises/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture08/exercises/Song.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +22,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rainer-65&quot;
+  }
+}</component>
   <component name="GitLabMergeRequestFiltersHistory">{
   &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPENED&quot;,
@@ -77,6 +42,12 @@
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;first&quot;: &quot;https://gitlab.fhnw.ch/bsc_bit_p1_basel/bsc_bit_p1_basel_hs24.git&quot;,
     &quot;second&quot;: &quot;0f165f40-1e3c-446d-8eec-237d79fcb3c6&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rainer-65/Programming1_AS2024.git&quot;,
+    &quot;accountId&quot;: &quot;fa2a3c4e-625b-4a2c-a2eb-6086f78013a8&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -296,6 +267,14 @@
       <workItem from="1732032072862" duration="5018000" />
       <workItem from="1732082393611" duration="9000" />
       <workItem from="1732102882757" duration="5024000" />
+      <workItem from="1732258486386" duration="26000" />
+      <workItem from="1732258529447" duration="7000" />
+      <workItem from="1732258602905" duration="77000" />
+      <workItem from="1732258704553" duration="95000" />
+      <workItem from="1732260317449" duration="9000" />
+      <workItem from="1732357181157" duration="514000" />
+      <workItem from="1732616487426" duration="126000" />
+      <workItem from="1732709837679" duration="916000" />
     </task>
     <task id="LOCAL-00001" summary="Commit directories 10, 11, 12">
       <option name="closed" value="true" />
