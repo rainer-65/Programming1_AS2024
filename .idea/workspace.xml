@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="760e9760-568e-496c-bc37-51ebc7eeb3f3" name="Changes" comment="5th commit, 2024-11-26, correct turn issue and add game nr. 4 (fortune wheel)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture10/examples/CompositionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture10/examples/CompositionExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture10/exercises/CompositionExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture10/exercises/CompositionExercise.java" afterDir="false" />
-    </list>
+    <list default="true" id="760e9760-568e-496c-bc37-51ebc7eeb3f3" name="Changes" comment="6th commit, change Composition examples and exercises" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -279,7 +275,7 @@
       <workItem from="1732544053790" duration="320000" />
       <workItem from="1732633942494" duration="1471000" />
       <workItem from="1732639372084" duration="2043000" />
-      <workItem from="1732700875973" duration="937000" />
+      <workItem from="1732700875973" duration="997000" />
     </task>
     <task id="LOCAL-00001" summary="Commit directories 10, 11, 12">
       <option name="closed" value="true" />
@@ -329,7 +325,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732640724467</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="6th commit, change Composition examples and exercises">
+      <option name="closed" value="true" />
+      <created>1732701871055</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1732701871055</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,7 +345,8 @@
     <MESSAGE value="2nd commit, 2024-11-22" />
     <MESSAGE value="3rd commit, 2024-11-24" />
     <MESSAGE value="5th commit, 2024-11-26, correct turn issue and add game nr. 4 (fortune wheel)" />
-    <option name="LAST_COMMIT_MESSAGE" value="5th commit, 2024-11-26, correct turn issue and add game nr. 4 (fortune wheel)" />
+    <MESSAGE value="6th commit, change Composition examples and exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="6th commit, change Composition examples and exercises" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
