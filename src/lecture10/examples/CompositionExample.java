@@ -34,8 +34,7 @@ class Company {
         }
     }
 
-    // Method
-    // to add new Department to the Company
+    // Method to add new Department to the Company
     public void addDepartment(Department department) {
         departments.add(department);
     }
