@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="760e9760-568e-496c-bc37-51ebc7eeb3f3" name="Changes" comment="7th commit">
+    <list default="true" id="760e9760-568e-496c-bc37-51ebc7eeb3f3" name="Changes" comment="Commit, 2024-11-28, Update composition examples">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture10/examples/CompositionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture10/examples/CompositionExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +45,12 @@
     &quot;second&quot;: &quot;0f165f40-1e3c-446d-8eec-237d79fcb3c6&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/rainer-65/Programming1_AS2024.git",
-    "accountId": "8f3d8055-c1f0-4345-b096-b1d9f45d0d40"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rainer-65/Programming1_AS2024.git&quot;,
+    &quot;accountId&quot;: &quot;fa2a3c4e-625b-4a2c-a2eb-6086f78013a8&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -281,8 +282,9 @@
       <workItem from="1732639372084" duration="2043000" />
       <workItem from="1732700875973" duration="937000" />
       <workItem from="1732787726150" duration="1000" />
-      <workItem from="1732862385285" duration="1582000" />
-      <workItem from="1733147866818" duration="620000" />
+      <workItem from="1732862385285" duration="1736000" />
+      <workItem from="1733221038275" duration="112000" />
+      <workItem from="1733221295094" duration="266000" />
     </task>
     <task id="LOCAL-00001" summary="Commit directories 10, 11, 12">
       <option name="closed" value="true" />
@@ -332,22 +334,19 @@
       <option name="project" value="LOCAL" />
       <updated>1732640724467</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Commit, 2024-11-28, Update composition examples">
+      <option name="closed" value="true" />
+      <created>1732864038309</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1732864038309</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit directories 10, 11, 12" />
@@ -355,7 +354,8 @@
     <MESSAGE value="2nd commit, 2024-11-22" />
     <MESSAGE value="3rd commit, 2024-11-24" />
     <MESSAGE value="5th commit, 2024-11-26, correct turn issue and add game nr. 4 (fortune wheel)" />
-    <option name="LAST_COMMIT_MESSAGE" value="5th commit, 2024-11-26, correct turn issue and add game nr. 4 (fortune wheel)" />
+    <MESSAGE value="Commit, 2024-11-28, Update composition examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit, 2024-11-28, Update composition examples" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

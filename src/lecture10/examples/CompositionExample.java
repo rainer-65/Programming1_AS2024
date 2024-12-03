@@ -60,6 +60,10 @@ class CompanyDepartment {
         heroCorp.addDepartment(heroCorp.new Department("A187", "Research and Development"));
         heroCorp.addDepartment(heroCorp.new Department("A546", "Marketing and Sales"));
 
+        // Alternative style
+        Company.Department deptAfterSales = heroCorp.new Department("A777", "Aftersales");
+        heroCorp.addDepartment(deptAfterSales);
+
         // Printing department details
         System.out.println("Department details of Hero Corp. ");
         System.out.println(heroCorp.getDepartments().toString());
