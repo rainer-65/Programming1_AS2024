@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="760e9760-568e-496c-bc37-51ebc7eeb3f3" name="Changes" comment="Commit, 2024-12-03">
+    <list default="true" id="760e9760-568e-496c-bc37-51ebc7eeb3f3" name="Changes" comment="Commit, 2024-12-03, Update composition examples">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignment03/GameManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment03/GameManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/rainer-65/Programming1_AS2024.git&quot;,
-    &quot;accountId&quot;: &quot;8f3d8055-c1f0-4345-b096-b1d9f45d0d40&quot;
+    &quot;accountId&quot;: &quot;fa2a3c4e-625b-4a2c-a2eb-6086f78013a8&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -62,101 +63,101 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AddingIntegers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AggregationExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayList_Loops.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AssociationExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AverageCalculator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BadComposition.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BadComposition2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BankEmployee.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BearTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BookMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BookTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BooleanCalc.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Bugs.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BuildingRoom.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CaesarCipher.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CalcFloat.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CarTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CarWheel.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Casting.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CollatzConjecture.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompanyDepartment.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompareStrings.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ComparingArrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompositionExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CounterTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DiceMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DynamicType.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EmployeeTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EvenNumbers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FactorialCalculator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Factorials.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FamilyConsoleInterface.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FavoriteColor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FavoriteFruits.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Fibonacci.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FirstName.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FizzBuzz.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GFG.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GivingChange.executor&quot;: &quot;Run&quot;,
-    &quot;Application.House2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InstituteCCStudent.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Interest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LargestNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MethodExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MoreStrings.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MultiplicationTable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MysteryCheck.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NullCheck.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PetMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PetTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PositiveNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProductTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Rounding.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ShopTurnover.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SquareCalculator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StoppingDistance.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringManipulator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringPadding.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StudentMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StudentModule.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumCalculator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestShape.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestingEquals.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TryOperators.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UserTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UserTestProgram.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WidgetVAT.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WrapperTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/raine/IdeaProjects/Programming1_AS2024/src/assignment03&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AddingIntegers.executor": "Run",
+    "Application.AggregationExample.executor": "Run",
+    "Application.ArrayList_Loops.executor": "Run",
+    "Application.ArrayTest.executor": "Run",
+    "Application.AssociationExample.executor": "Run",
+    "Application.AverageCalculator.executor": "Run",
+    "Application.BadComposition.executor": "Run",
+    "Application.BadComposition2.executor": "Run",
+    "Application.BankEmployee.executor": "Run",
+    "Application.BearTest.executor": "Run",
+    "Application.BookMain.executor": "Run",
+    "Application.BookTest.executor": "Run",
+    "Application.BooleanCalc.executor": "Run",
+    "Application.Bugs.executor": "Run",
+    "Application.BuildingRoom.executor": "Run",
+    "Application.CaesarCipher.executor": "Run",
+    "Application.CalcFloat.executor": "Run",
+    "Application.CarTest.executor": "Run",
+    "Application.CarWheel.executor": "Run",
+    "Application.Casting.executor": "Run",
+    "Application.CollatzConjecture.executor": "Run",
+    "Application.CompanyDepartment.executor": "Run",
+    "Application.CompareStrings.executor": "Run",
+    "Application.ComparingArrays.executor": "Run",
+    "Application.CompositionExample.executor": "Run",
+    "Application.CounterTest.executor": "Run",
+    "Application.DiceMain.executor": "Run",
+    "Application.DynamicType.executor": "Run",
+    "Application.EmployeeTest.executor": "Run",
+    "Application.EvenNumbers.executor": "Run",
+    "Application.Factorial.executor": "Run",
+    "Application.FactorialCalculator.executor": "Run",
+    "Application.Factorials.executor": "Run",
+    "Application.FamilyConsoleInterface.executor": "Run",
+    "Application.FavoriteColor.executor": "Run",
+    "Application.FavoriteFruits.executor": "Run",
+    "Application.Fibonacci.executor": "Run",
+    "Application.FirstName.executor": "Run",
+    "Application.FizzBuzz.executor": "Run",
+    "Application.GFG.executor": "Run",
+    "Application.GivingChange.executor": "Run",
+    "Application.House2.executor": "Run",
+    "Application.InstituteCCStudent.executor": "Run",
+    "Application.Interest.executor": "Run",
+    "Application.LargestNumber.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MethodExample.executor": "Run",
+    "Application.MoreStrings.executor": "Run",
+    "Application.MultiplicationTable.executor": "Run",
+    "Application.MysteryCheck.executor": "Run",
+    "Application.NullCheck.executor": "Run",
+    "Application.Palindrome.executor": "Run",
+    "Application.PetMain.executor": "Run",
+    "Application.PetTest.executor": "Run",
+    "Application.PositiveNumber.executor": "Run",
+    "Application.ProductTest.executor": "Run",
+    "Application.Rounding.executor": "Run",
+    "Application.ShopTurnover.executor": "Run",
+    "Application.SquareCalculator.executor": "Run",
+    "Application.StoppingDistance.executor": "Run",
+    "Application.StringManipulator.executor": "Run",
+    "Application.StringPadding.executor": "Run",
+    "Application.StringTest.executor": "Run",
+    "Application.StudentMain.executor": "Run",
+    "Application.StudentModule.executor": "Run",
+    "Application.SumCalculator.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.TestShape.executor": "Run",
+    "Application.TestingEquals.executor": "Run",
+    "Application.TryOperators.executor": "Run",
+    "Application.UserTest.executor": "Run",
+    "Application.UserTestProgram.executor": "Run",
+    "Application.WidgetVAT.executor": "Run",
+    "Application.WrapperTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/raine/IdeaProjects/Programming1_AS2024/src/assignment03",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\raine\IdeaProjects\Programming1_AS2024\src\assignment03" />
@@ -283,9 +284,8 @@
       <workItem from="1732787726150" duration="1000" />
       <workItem from="1732862385285" duration="1736000" />
       <workItem from="1733221038275" duration="112000" />
-      <workItem from="1733221295094" duration="266000" />
-      <workItem from="1733301997668" duration="9000" />
-      <workItem from="1733302010093" duration="23000" />
+      <workItem from="1733221295094" duration="332000" />
+      <workItem from="1733312995714" duration="6987000" />
     </task>
     <task id="LOCAL-00001" summary="Commit directories 10, 11, 12">
       <option name="closed" value="true" />
@@ -343,22 +343,19 @@
       <option name="project" value="LOCAL" />
       <updated>1732864038309</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Commit, 2024-12-03, Update composition examples">
+      <option name="closed" value="true" />
+      <created>1733221590660</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733221590660</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit directories 10, 11, 12" />
@@ -367,7 +364,8 @@
     <MESSAGE value="3rd commit, 2024-11-24" />
     <MESSAGE value="5th commit, 2024-11-26, correct turn issue and add game nr. 4 (fortune wheel)" />
     <MESSAGE value="Commit, 2024-11-28, Update composition examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit, 2024-11-28, Update composition examples" />
+    <MESSAGE value="Commit, 2024-12-03, Update composition examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit, 2024-12-03, Update composition examples" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
