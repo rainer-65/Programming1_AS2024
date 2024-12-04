@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="760e9760-568e-496c-bc37-51ebc7eeb3f3" name="Changes" comment="Commit, 2024-11-28, Update composition examples">
+    <list default="true" id="760e9760-568e-496c-bc37-51ebc7eeb3f3" name="Changes" comment="Commit, 2024-12-03">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture10/examples/CompositionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture10/examples/CompositionExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/rainer-65/Programming1_AS2024.git&quot;,
-    &quot;accountId&quot;: &quot;fa2a3c4e-625b-4a2c-a2eb-6086f78013a8&quot;
+    &quot;accountId&quot;: &quot;8f3d8055-c1f0-4345-b096-b1d9f45d0d40&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -285,6 +284,8 @@
       <workItem from="1732862385285" duration="1736000" />
       <workItem from="1733221038275" duration="112000" />
       <workItem from="1733221295094" duration="266000" />
+      <workItem from="1733301997668" duration="9000" />
+      <workItem from="1733302010093" duration="23000" />
     </task>
     <task id="LOCAL-00001" summary="Commit directories 10, 11, 12">
       <option name="closed" value="true" />
@@ -347,6 +348,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit directories 10, 11, 12" />
