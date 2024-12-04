@@ -27,7 +27,8 @@ public class GameManager {
             System.out.println("6. Display status");
             System.out.println("7. Search pet");
             System.out.println("8. Sort pets");
-            System.out.println("9. Exit game");
+            System.out.println("9. Number of Pets / Mighty Pets");
+            System.out.println("10. Exit game");
             System.out.print("Choose an option: ");
 
             int choice = scanner.nextInt();
@@ -61,6 +62,9 @@ public class GameManager {
                     sortPets();
                     break;
                 case 9:
+                    getNumberOfPets();
+                    break;
+                case 10:
                     System.out.println("Game Over! Total turns survived: " + turn);
                     return;
                 default:
@@ -239,6 +243,18 @@ public class GameManager {
             }
         }
 
+    }
+
+    private void getNumberOfPets() {
+        System.out.print("Overall number of pets: " + player.getPets().size());
+        int counterPet = 0;
+        int counterMightyPet = 0;
+        for (Pet pet : player.getPets()) {
+            if (pet.getClass() == MightyPet.class) counterMightyPet++;
+            else counterPet++;
+        }
+        System.out.println("Number of pets (superclass): " + counterPet);
+        System.out.println("Number of MightyPets (subclass): " + counterMightyPet);
     }
 
     private void updatePetsStatus() {
