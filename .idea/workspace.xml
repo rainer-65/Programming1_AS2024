@@ -4,9 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="760e9760-568e-496c-bc37-51ebc7eeb3f3" name="Changes" comment="Commit, 2024-12-03, Update composition examples">
+    <list default="true" id="760e9760-568e-496c-bc37-51ebc7eeb3f3" name="Changes" comment="Commit, 2024-12-04">
+      <change afterPath="$PROJECT_DIR$/src/lecture11/exercises/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lecture11/exercises/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lecture11/exercises/VehicleCarMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignment03/GameManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment03/GameManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture12/examples/BearTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture12/examples/Casting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture12/examples/ConstructorExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture12/examples/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture12/examples/EmployeeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture12/examples/OverridingExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture12/examples/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture12/examples/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture12/examples/TestShape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture12/examples/Triangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture12/examples/VehicleCasting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture12/exercises/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture12/exercises/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture12/exercises/EmployeeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture12/exercises/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture12/exercises/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture12/exercises/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture12/exercises/Sub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture12/exercises/TestShape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture12/exercises/Triangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture13/examples/AstroBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture13/examples/Clerk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture13/examples/ClerkExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture13/examples/ComparatorExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture13/examples/DynamicType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture13/examples/Employable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture13/examples/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture13/examples/EmployeeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture13/examples/ExampleCompare.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture13/examples/GasGiant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture13/examples/InstanceofClassTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture13/examples/IterationThroughArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture13/examples/NameComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture13/examples/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture13/examples/Planet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture13/examples/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture13/examples/Star.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture13/examples/Woof2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture13/exercises/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture13/exercises/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture13/exercises/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture13/exercises/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture13/exercises/TestShape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture13/exercises/Triangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lecture13/exercises/Woof.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +95,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/rainer-65/Programming1_AS2024.git&quot;,
-    &quot;accountId&quot;: &quot;fa2a3c4e-625b-4a2c-a2eb-6086f78013a8&quot;
+    &quot;accountId&quot;: &quot;8f3d8055-c1f0-4345-b096-b1d9f45d0d40&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -94,6 +141,7 @@
     "Application.DiceMain.executor": "Run",
     "Application.DynamicType.executor": "Run",
     "Application.EmployeeTest.executor": "Run",
+    "Application.ErrorCode.executor": "Run",
     "Application.EvenNumbers.executor": "Run",
     "Application.Factorial.executor": "Run",
     "Application.FactorialCalculator.executor": "Run",
@@ -130,6 +178,7 @@
     "Application.StringTest.executor": "Run",
     "Application.StudentMain.executor": "Run",
     "Application.StudentModule.executor": "Run",
+    "Application.Sub.executor": "Run",
     "Application.SumCalculator.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.TestShape.executor": "Run",
@@ -137,6 +186,7 @@
     "Application.TryOperators.executor": "Run",
     "Application.UserTest.executor": "Run",
     "Application.UserTestProgram.executor": "Run",
+    "Application.VehicleCarMain.executor": "Run",
     "Application.WidgetVAT.executor": "Run",
     "Application.WrapperTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -167,6 +217,8 @@
       <recent name="C:\Users\raine\IdeaProjects\Programming1_AS2024\src\lecture08\exercises" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\raine\IdeaProjects\Programming1_AS2024\src\lecture11\exercises" />
+      <recent name="C:\Users\raine\IdeaProjects\Programming1_AS2024\src\lecture11" />
       <recent name="C:\Users\raine\IdeaProjects\Programming1_AS2024\src\assignment01" />
       <recent name="C:\Users\raine\IdeaProjects\Programming1_AS2024\src\assignment1" />
     </key>
@@ -286,6 +338,9 @@
       <workItem from="1733221038275" duration="112000" />
       <workItem from="1733221295094" duration="332000" />
       <workItem from="1733312995714" duration="6987000" />
+      <workItem from="1733375699956" duration="184000" />
+      <workItem from="1733376719662" duration="71000" />
+      <workItem from="1733806748569" duration="2641000" />
     </task>
     <task id="LOCAL-00001" summary="Commit directories 10, 11, 12">
       <option name="closed" value="true" />
