@@ -12,7 +12,6 @@ public class Triangle extends Shape {
 		super(color);
 		this.base = base;
 		this.height = height;
-		
 	}
 
 	@Override

@@ -1,31 +1,33 @@
 package lecture11.exercises;
 
 class Super {
-	String s;
+    String s;
 
-	public Super() {
+    public Super() {
 
-	}
+    }
 
-	public Super(String s) {
-		this.s = s;
-	}
+    public Super(String s) {
+        this.s = s;
+    }
 
 }
 
 public class Sub extends Super {
-	int x = 200;
+    int x = 200;
 
-	public Sub(String s) {
-	}
+     public Sub(String s) {
+         super();
+     }
 
-	public Sub() {
-		System.out.println("Sub");
-	}
+     public Sub() {
+         super();
+         System.out.println("Sub");
+    }
 
-	public static void main(String[] args) {
-		Sub s = new Sub();
+    public static void main(String[] args) {
+        Sub s = new Sub();
 
-	}
+    }
 
 }

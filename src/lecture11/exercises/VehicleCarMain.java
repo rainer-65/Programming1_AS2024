@@ -1,6 +1,5 @@
 package lecture11.exercises;
 
-
 public class VehicleCarMain {
 
     public static void main(String[] args) {
