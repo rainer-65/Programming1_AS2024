@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="760e9760-568e-496c-bc37-51ebc7eeb3f3" name="Changes" comment="Commit, 2024-12-10">
-      <change afterPath="$PROJECT_DIR$/src/lecture11/coding/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture11/coding/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture11/coding/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture11/exercises/Casting" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lecture11/exercises/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture11/examples/BearTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture11/examples/BearTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture11/examples/ConstructorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture11/examples/ConstructorExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture11/examples/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture11/examples/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture11/exercises/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture11/exercises/EmployeeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture11/exercises/Sub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture11/exercises/Sub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lecture11/exercises/VehicleCarMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture11/exercises/VehicleCarMain.java" afterDir="false" />
+    <list default="true" id="760e9760-568e-496c-bc37-51ebc7eeb3f3" name="Changes" comment="Commit, 2024-12-11">
+      <change beforePath="$PROJECT_DIR$/src/lecture11/coding/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lecture11/coding/Customer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -310,7 +298,7 @@
       <workItem from="1733806748569" duration="2641000" />
       <workItem from="1733832579949" duration="30000" />
       <workItem from="1733834447602" duration="3389000" />
-      <workItem from="1733917557587" duration="9567000" />
+      <workItem from="1733917557587" duration="10038000" />
     </task>
     <task id="LOCAL-00001" summary="Commit directories 10, 11, 12">
       <option name="closed" value="true" />
@@ -376,7 +364,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733221590660</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Commit, 2024-12-11">
+      <option name="closed" value="true" />
+      <created>1733929433647</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733929433647</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,7 +386,8 @@
     <MESSAGE value="5th commit, 2024-11-26, correct turn issue and add game nr. 4 (fortune wheel)" />
     <MESSAGE value="Commit, 2024-11-28, Update composition examples" />
     <MESSAGE value="Commit, 2024-12-03, Update composition examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit, 2024-12-03, Update composition examples" />
+    <MESSAGE value="Commit, 2024-12-11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit, 2024-12-11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

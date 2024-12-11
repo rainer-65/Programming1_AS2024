@@ -2,7 +2,7 @@ package lecture11.coding;
 
 public class Customer extends Person{
 
-    String status;
+    private final String status;
 
     public Customer(String name, int age, String status) {
         super(name, age);
