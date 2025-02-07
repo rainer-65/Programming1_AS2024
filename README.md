@@ -1,1 +1,1 @@
-This repository contains all aexamples, exercises and solutions for the three assignments of Programming 1
+This repository contains all examples, exercises and solutions for the three assignments of BSc BIT Programming 1 @ the FHNW HSW Basel
